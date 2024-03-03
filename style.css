@@ -185,11 +185,12 @@ header img {
 	font-size: 21px;
 }
 
-.date {
+.stack {
 	font-style: italic;
 	color: rgb(225, 225, 225);
 	letter-spacing: 3px;
 	font-size: 16px;
+	color: var(--text-color);
 }
 
 .experience__info {
@@ -224,4 +225,5 @@ header img {
 .about p {
 	font-size: 18px;
 	line-height: 1.7;
+	color: var(--text-color);
 }
