@@ -1,0 +1,215 @@
+:root {
+	--text-color: #a8adb2;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: 'Roboto', Helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	min-width: 300px;
+	background-color: rgb(21, 21, 21);
+	color: #eeeeee;
+	line-height: 1.5;
+}
+
+h1,
+h2 {
+	font-size: inherit;
+}
+
+ul,
+li {
+	list-style-type: none;
+	color: inherit;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.container {
+	max-width: 810px;
+	width: 100%;
+	padding: 1.5rem 1.45rem;
+	margin: 0 auto;
+}
+
+header {
+	padding-top: 1rem;
+}
+
+/* О себе */
+
+header img {
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+}
+
+.info {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 3.8rem;
+}
+
+.info div {
+	width: 100%;
+	max-width: 570px;
+}
+
+.info h1 {
+	font-size: 24px;
+	font-weight: 500;
+	color: var(--text-color);
+	text-align: left;
+	margin-top: 1rem;
+	line-height: 1.4;
+}
+
+/* Соц сети */
+
+.social__list {
+	display: flex;
+	margin-top: 1rem;
+	column-gap: 20px;
+	color: var(--text-color);
+}
+
+.social__list a {
+	display: flex;
+	align-items: center;
+	column-gap: 7px;
+	font-size: 19px;
+}
+
+.social__list li:first-child:hover {
+	color: #2aabee;
+}
+
+.social__list li:last-child:hover {
+	color: #d3d8dc;
+}
+
+.social__list li:nth-child(2):hover {
+	color: #d3d8dc;
+}
+
+.social__list img {
+	width: 17px;
+	height: 17px;
+}
+
+/* Опыт */
+
+.main {
+	display: flex;
+	flex-direction: column;
+	margin-top: 5.5rem;
+	margin-bottom: 3rem;
+	row-gap: 20px;
+	letter-spacing: 1.1px;
+}
+
+.main h2 {
+	font-size: 21px;
+	font-weight: 600;
+}
+
+.experience a {
+	width: fit-content;
+	font-weight: 600;
+	font-size: 21px;
+}
+
+.experience a:hover {
+	color: #3890f4;
+}
+
+.date {
+	font-style: italic;
+	color: rgb(225, 225, 225);
+	letter-spacing: 3px;
+	font-size: 16px;
+}
+
+.experience {
+	display: flex;
+	flex-direction: column;
+	row-gap: 5px;
+}
+
+.experience__info {
+	font-size: 18px;
+	color: var(--text-color);
+	letter-spacing: 1.1px;
+	margin-top: 5px;
+}
+
+/* Портфолио */
+
+.portfolio {
+	display: flex;
+	flex-direction: column;
+	margin-top: 4rem;
+	margin-bottom: 3rem;
+	row-gap: 20px;
+	letter-spacing: 1px;
+}
+
+.portfolio h2 {
+	font-size: 21px;
+	font-weight: 600;
+}
+
+.experience h3 {
+	font-weight: 600;
+	font-size: 21px;
+}
+
+.date {
+	font-style: italic;
+	color: rgb(225, 225, 225);
+	letter-spacing: 3px;
+	font-size: 16px;
+}
+
+.experience__info {
+	font-size: 18px;
+	color: var(--text-color);
+	letter-spacing: 1.1px;
+	margin-top: 5px;
+}
+
+.experience {
+	display: flex;
+	flex-direction: column;
+	row-gap: 5px;
+}
+
+/* О себе */
+
+.about {
+	display: flex;
+	flex-direction: column;
+	margin-top: 4rem;
+	margin-bottom: 3rem;
+	row-gap: 20px;
+	letter-spacing: 1px;
+}
+
+.about h2 {
+	font-size: 21px;
+	font-weight: 600;
+}
+
+.about p {
+	font-size: 18px;
+	line-height: 1.7;
+}
