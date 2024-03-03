@@ -129,7 +129,8 @@ header img {
 }
 
 .experience a:hover {
-	color: #3890f4;
+	filter: invert(48%) sepia(68%) saturate(2461%) hue-rotate(193deg)
+		brightness(98%) contrast(94%);
 }
 
 .date {
@@ -152,12 +153,23 @@ header img {
 	margin-top: 5px;
 }
 
+.experience a {
+	display: flex;
+	align-items: center;
+	column-gap: 10px;
+}
+
+.link {
+	width: 20px;
+	height: 20px;
+}
+
 /* Портфолио */
 
 .portfolio {
 	display: flex;
 	flex-direction: column;
-	margin-top: 4rem;
+	margin-top: 3rem;
 	margin-bottom: 3rem;
 	row-gap: 20px;
 	letter-spacing: 1px;
@@ -198,7 +210,7 @@ header img {
 .about {
 	display: flex;
 	flex-direction: column;
-	margin-top: 4rem;
+	margin-top: 3rem;
 	margin-bottom: 3rem;
 	row-gap: 20px;
 	letter-spacing: 1px;
